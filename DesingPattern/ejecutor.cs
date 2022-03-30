@@ -1,6 +1,7 @@
 ﻿using DesingPattern.Prototype;
 using DesingPattern.Singleton;
 using DesingPattern.Strategy;
+using DesingPattern.Factory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,8 @@ namespace DesingPattern
         {
             //sin();
             //proto();
-            stra();
+            //stra();
+            factory();
         }
 
         //only for Strategy
@@ -46,6 +48,27 @@ namespace DesingPattern
             v.message = "hi";
             var f = testSingleton.instance;
             Console.WriteLine(f.message);
+        }
+
+
+        //only for factory
+        static void factory() {
+            FactoryConnection factory = new FactoryConnection();
+            IConnection ss = factory.Connection("SQLSERVER");
+            ss.connect();
+            ss.disconnect();
+
+            IConnection ms = factory.Connection("MYSQL");
+            ms.connect();
+            ms.disconnect();
+
+            IConnection cl = factory.Connection("");
+            cl.connect();
+            cl.disconnect();
+
+            IConnection md = factory.Connection("MARIADB");
+            md.connect();
+            md.disconnect();
         }
 
     }
