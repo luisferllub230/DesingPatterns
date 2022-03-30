@@ -2,7 +2,6 @@ C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\DesingPattern.e
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\DesingPattern.deps.json
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\DesingPattern.runtimeconfig.json
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\DesingPattern.dll
-C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\ref\DesingPattern.dll
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\bin\Debug\net6.0\DesingPattern.pdb
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\DesingPattern.csproj.AssemblyReference.cache
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\DesingPattern.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\DesingPattern.d
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\ref\DesingPattern.dll
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\DesingPattern.pdb
 C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\DesingPattern.genruntimeconfig.cache
+C:\Users\HP\Desktop\DesingPattern\DesingPattern\obj\Debug\net6.0\refint\DesingPattern.dll
